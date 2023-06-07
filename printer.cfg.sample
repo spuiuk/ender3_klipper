@@ -1,0 +1,42 @@
+# Main Printer configuration
+# --------------------------
+# The original printer.cfg was copied over to ender3-config.cfg to
+# allow us to add to a git repo.
+# This cfg file is used for the auto generated data for mesh levelling and 
+# pid data.
+
+[include ender3-config.cfg]
+
+#*# <---------------------- SAVE_CONFIG ---------------------->
+#*# DO NOT EDIT THIS BLOCK OR BELOW. The contents are auto-generated.
+#*#
+#*# [bed_mesh default]
+#*# version = 1
+#*# points =
+#*# 	  0.011250, 0.069375, 0.011250, -0.086875, -0.136250
+#*# 	  0.097500, 0.026250, -0.092500, -0.223750, -0.389375
+#*# 	  0.181250, 0.058125, -0.141875, -0.309375, -0.475625
+#*# 	  0.305625, 0.090625, -0.136250, -0.350000, -0.589375
+#*# 	  0.150625, 0.091875, -0.007500, -0.086250, -0.174375
+#*# x_count = 5
+#*# y_count = 5
+#*# mesh_x_pps = 2
+#*# mesh_y_pps = 2
+#*# algo = bicubic
+#*# tension = 0.2
+#*# min_x = 10.0
+#*# max_x = 190.0
+#*# min_y = 10.0
+#*# max_y = 210.0
+#*#
+#*# [extruder]
+#*# control = pid
+#*# pid_kp = 27.591
+#*# pid_ki = 1.687
+#*# pid_kd = 112.776
+#*#
+#*# [heater_bed]
+#*# control = pid
+#*# pid_kp = 68.438
+#*# pid_ki = 1.121
+#*# pid_kd = 1044.536
